@@ -4,7 +4,7 @@ import { nuevaPartida, plantarse, historial } from './motor';
 import { btnNuevaPartida, btnPlantarse, btnHistorial } from './model';
 import './ui';
 
-// Aggiungi event listener per i pulsanti principali
+// event listener per i pulsanti principali
 if (btnNuevaPartida !== null && btnNuevaPartida !== undefined && btnNuevaPartida instanceof HTMLButtonElement){
   btnNuevaPartida.addEventListener('click', () => {
     nuevaPartida();
