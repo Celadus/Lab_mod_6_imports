@@ -167,7 +167,7 @@ export function monstrarMensajeFuturo(puntosTotales: number) {
   }
 }
 
-// Altre funzioni di supporto, se necessario
+// Altre funzioni di supporto
 
 export function deshabilitarBotonPedirCarta(estadeshabilitado: boolean) {
   const botonPedir = document.getElementById("btn_pedir");
